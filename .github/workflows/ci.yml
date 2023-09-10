@@ -5,6 +5,7 @@ on:
 
 jobs:
     test:
+        name: Test All sub-projects
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
