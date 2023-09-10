@@ -19,7 +19,7 @@ jobs:
               run: |
                 for dir in */; do
                     if [ -f "$dir/stack.yaml" ]; then
-                      echo "Running 'stack test' in $dir"
+                      echo "----------- RUNNING 'stack test' IN $dir -----------"
                       cd "$dir"
                       stack test
                       cd ..
